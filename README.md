@@ -18,3 +18,6 @@ The javascript walks through the nodes in the document body.  For all text nodes
 
 It currently supports messages from Tomcat, HTTPD, Nginx and Felix, though other commonly used servers will likely have similar messages that the replace rules will apply to.  
 
+## About the name
+
+At the Recurse Center, which I attended in the summer of 2017, there is a rule against "well actuallies."  Well actuallies are situations where people are having a discussion on a subject, and someone corrects a statement with a minor technical correction, e.g. "Actually, 401 should be called Unauthenticated not Unauthorized."  These corrections here are well actuallies, hence the name.  
