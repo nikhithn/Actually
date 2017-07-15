@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Actually",
+  "description": "This extension replaces HTTP 401 Unauthorized with 401 Unauthenticated",
+  "version": "1.0",
+
+  "browser_action": { 
+    "default_icon": "find_replace.png",
+    "default_title": "Actually"
+  },
+
+  "content_scripts": [{
+    "matches": ["*://*/*"],
+    "match_about_blank": true,
+    "js": ["actually.js"],
+    "run_at": "document_end"
+  }],
+  
+  "permissions": [
+    "activeTab"
+  ]
+}
