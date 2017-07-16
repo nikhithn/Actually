@@ -13,8 +13,7 @@ If there are any other things that I can add to this let me know!  As always, th
 
 ## How it works
 
-This chrome extension works by accessing your current tab.  On load of the DOM injects some javascript into the webpage. 
-The javascript walks through the nodes in the document body.  For all text nodes, it replaces occurences of 401 Unauthorized error messages with 401 Unauthenticated using a javascript replace.  
+This chrome extension works by accessing your current tab.  On load of the DOM, the extension injects some javascript into the webpage. The javascript walks through the nodes in the document body, and for all text nodes, it replaces occurences of 401 Unauthorized error messages with 401 Unauthenticated using a javascript replace.  
 
 It currently supports messages from Tomcat, HTTPD, Nginx and Felix, though other commonly used servers will likely have similar messages that the replace rules will apply to.  
 
