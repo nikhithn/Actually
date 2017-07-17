@@ -11,6 +11,15 @@ This extension replaces commonly found 401 error messages that reference "Unauth
 
 If there are any other things that I can add to this let me know!  As always, this is a work in progress.  
 
+## Set-up
+
+To use this chrome extension
+1. Download the Actually.crx file from this repository.
+2. Navigate to your extensions manager in chrome by either selecting "Settings" > "More Tools" > "Extensions" or by typing "chrome://extensions" into your omnibar.  
+3. Drag the extension from your file browser, and drop it on to the extensions manager.
+
+Please raise an issue with any comments or concerns.  
+
 ## How it works
 
 This chrome extension works by accessing your current tab.  On load of the DOM, the extension injects some javascript into the webpage. The javascript walks through the nodes in the document body, and for all text nodes, it replaces occurences of 401 Unauthorized error messages with 401 Unauthenticated using a javascript replace.  
