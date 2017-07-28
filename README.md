@@ -2,7 +2,7 @@
 
 ## Functionality
 
-This is a chrome extension that automatically replaces common technically inaccuracies on the web with their accurate counterparts. 
+This is a chrome extension that automatically replaces common technical inaccuracies on the web with their accurate counterparts. 
 
 Currently it supports one inaccuracy.  In the HTTP RFC, one error code is 401 Unauthorized.  This is a misnomer, because the error code applies to situations where the associated request was not authenticated.
 Authorization and authentication are fundamental concepts to identity and access, and the HTTP RFC confuses the two!
